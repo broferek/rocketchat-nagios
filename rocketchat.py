@@ -56,6 +56,7 @@ def parse():
     parser.add_argument('--servicedesc', help='Service Description')
     parser.add_argument('--servicestate', help='Service State')
     parser.add_argument('--serviceoutput', help='Service Output')
+    parser.add_argument('--notificationtype', help='Notification Type')
     parser.add_argument('--version', action='version',
                         version='%(prog)s {version}'.format(version=VERSION))
     args = parser.parse_args()
